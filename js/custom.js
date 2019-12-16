@@ -39,7 +39,7 @@
 
     /* Countdown-plugin
      ========================================================================== */
-    $('#countdown').countdown('2019/12/15', function (event) {
+    $('#countdown').countdown('2019/12/31', function (event) {
         $(this).html(event.strftime(
             '<div>%D<div class="date-cap">day%!D</div></div> '
             + '<div>%H<div class="date-cap">hr%!H</div></div> '
